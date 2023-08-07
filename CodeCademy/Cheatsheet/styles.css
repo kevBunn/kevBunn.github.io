@@ -1,0 +1,60 @@
+body {
+    background-color: CadetBlue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+main {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+header,
+footer {
+    padding: 10px 0;
+}
+
+main, header, footer {
+    text-align: center;
+}
+
+img {
+    height: 600px;
+    width: 750px;
+}
+
+table {
+    /*border-collapse: collapse;*/
+    margin: 0 auto;
+    text-align: left;
+    border: 2px solid white;
+  }
+
+th, td {
+    padding: 2px;
+}
+
+th,
+header,
+footer {
+    background-color: lightseagreen;
+}
+
+td {
+    min-width: 150px;
+    border-top: 1px solid white;
+}
+
+span.code {
+    /*code styling*/
+    background-color: LemonChiffon;
+    color: black;
+    font-family: 'JetBrains Mono', 'Fira Code', Consolas, Input, sans-serif;
+}
+
+h3,
+ol {
+    text-align: left;
+}
